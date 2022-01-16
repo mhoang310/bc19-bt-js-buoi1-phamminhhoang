@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, 
+body {
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+header {
+	margin: 50px 0;
+	padding: 10px 0; 
+	text-align: center;
+	color: yellow;
+	background-color: blue;
+	font-size: 30px;
+}
+
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.title {
+	color: red;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;	
+	align-items: center;
+}
+
+.item {
+	border: 1px solid orange;
+	max-width: 100%;
+	margin: 15px;
+	padding: 15px;
+}
+
+.item ul li {
+	margin-left: 15px;
+}
+
+.item.item-o ul li{
+	color: blue;
+}
